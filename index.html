@@ -16,29 +16,23 @@
     <h1>Weather Dashboard</h1>
   </header>
 
-  <!-- container for current day -->
-  <div class="list-group">
-    <a href="#" class="list-group-item list-group-item-action active" aria-current="true">
-      <div class="d-flex w-100 justify-content-between">
-        <h2 class="mb-1" id="cityDeets">Date, weather, icon</h2>
-      </div>
-      <p class="mb-1" id="temp">Temp:</p>
-      <p class="mb-1" id="wind">Wind:</p>
-      <p class="mb-1" id="hum">Humidity:</p>
-    </a>
-  </div>
-
-  <!-- container for 5 day forecast -->
-
-
-  <!-- container for 5 day forecast -->
+<!-- container for search bar area -->
   <div id="searchGrid">
-    <p>Search for a city:</p>
+    <h3>Search for a city:</h3>
     <div class="input-group">
       <input type="search" class="form-control rounded" id="userInput" placeholder="Search" aria-label="Search"
         aria-describedby="search-addon" />
       <button type="button" class="btn btn-outline-primary submitBtn">Search</button>
     </div>
+  </div>
+
+<!-- container for current day -->
+  <div class="searchResults">
+      <h1 class="mb-1" id="cityDeets">Type the name of a city above to see the weather in that area!</h1>
+      <h3 class="mb-1" id="temp"></h3>
+      <h3 class="mb-1" id="wind"></h3>
+      <h3 class="mb-1" id="hum"></h3>
+    </a>
   </div>
 
   <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>

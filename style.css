@@ -1,8 +1,13 @@
+body {
+    background-color: #7fb7d1;
+}
+
 header {
-    background-color: darkblue;
-    color: blanchedalmond;
+    color: whitesmoke;
     text-align: center;
     justify-content: center;
+    padding: 20px;
+    border-bottom: 5px solid #0e3e55;
 }
 
 .input-group {
@@ -10,10 +15,16 @@ header {
     height: 50px;
 }
 
-.list-group {
-    float: right;
-    height: 800px;
-    width: 1000px;
-    padding: 5px;
-    margin: 5px;
+.searchResults {
+    color: whitesmoke;
+    border: 5px solid #0e3e55;
+    height: 500px;
+    padding: 10px;
+    margin: 20px;
+    height: 200px;
+    width: 600px;
+}
+
+#searchGrid {
+    padding: 10px;
 }
